@@ -4,69 +4,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bowen</title>
-  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <h1 class="name">Bowen</h1>
-      <p class="tagline">Math & Computer Science · UofT</p>
-    </div>
-  </header>
+  <h1>Bowen</h1>
 
-  <!-- Clickable blocks -->
-  <main class="container">
-    <section class="grid">
-      <a class="card" href="#about">
-        <h2>About Me</h2>
-        <p>Quick bio, interests, and links.</p>
-      </a>
+  <!-- Simple blue-link navigation -->
+  <p>
+    <a href="#intro">Intro</a> |
+    <a href="#blog">Blog</a> |
+    <a href="#math">Math</a> |
+    <a href="#cs">Computer Science</a> |
+    <a href="#misc">Miscellaneous</a>
+  </p>
 
-      <a class="card" href="#blog">
-        <h2>Blog</h2>
-        <p>Posts and updates.</p>
-      </a>
+  <hr>
 
-      <a class="card" href="#math">
-        <h2>Mathematics</h2>
-        <p>Notes, problem-solving, combinatorics.</p>
-      </a>
+  <!-- Sections -->
+  <h2 id="intro">Intro</h2>
+  <p>
+    Welcome to my personal website. I study mathematics and computer science.
+    (Write more here.)
+  </p>
 
-      <a class="card" href="#cs">
-        <h2>Computer Science</h2>
-        <p>Projects, code, writeups.</p>
-      </a>
-    </section>
+  <h2 id="blog">Blog</h2>
+  <p>Coming soon.</p>
+  <!-- Example list of posts -->
+  <ul>
+    <li><a href="#">2026-02-14 — First post (placeholder)</a></li>
+  </ul>
 
-    <!-- The sections you jump to -->
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>I study mathematics and computer science. (Write more here.)</p>
-    </section>
+  <h2 id="math">Math</h2>
+  <p>Notes and problem solving.</p>
+  <ul>
+    <li><a href="#">Graph Theory</a></li>
+    <li><a href="#">Combinatorics / Ramsey Theory</a></li>
+    <li><a href="#">Random Graphs</a></li>
+  </ul>
 
-    <section id="blog" class="section">
-      <h2>Blog</h2>
-      <p>Coming soon.</p>
-    </section>
+  <h2 id="cs">Computer Science</h2>
+  <p>Projects and code.</p>
+  <ul>
+    <li><a href="#">Data Structures notes</a></li>
+    <li><a href="#">Algorithms</a></li>
+    <li><a href="#">GitHub projects</a></li>
+  </ul>
 
-    <section id="math" class="section">
-      <h2>Mathematics</h2>
-      <p>Graph theory, Ramsey theory, random graphs, etc.</p>
-    </section>
+  <h2 id="misc">Miscellaneous</h2>
+  <p>Anything else: reading notes, links, hobbies, etc.</p>
+  <ul>
+    <li><a href="#">Books / Courses</a></li>
+    <li><a href="#">Useful links</a></li>
+  </ul>
 
-    <section id="cs" class="section">
-      <h2>Computer Science</h2>
-      <p>Projects and code.</p>
-    </section>
-
-    <footer class="footer">
-      <p>© <span id="year"></span> Bowen</p>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <hr>
+  <p>© Bowen</p>
 </body>
 </html>
