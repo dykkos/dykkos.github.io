@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WireGuard and Tailscale networking experiments and references.">
+  <title>P2P networking — Bowen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav aria-label="Main navigation"><a href="index.html">Home</a> · <a href="index.html#academic">Academic</a> · <a href="index.html#project">Project</a> · <a href="blog.html">Blog</a> · <a href="intro.html">About</a> · <a href="misc.html">Miscellaneous</a></nav>
+<main>
+<h1>P2P</h1>
+<p>Personal experiments with encrypted tunnels and connectivity between devices.</p>
+<h2 id="wireguard">WireGuard tunnels</h2>
+<p>I configured WireGuard tunnels between macOS peers, including public keys, tunnel addresses, endpoints, and handshake checks.
+I investigated address allocation, IP forwarding, NAT, and full-tunnel routing, and troubleshot Windows adapter initialization.</p>
+<p>A successful handshake and working packet forwarding are separate checks: routing and forwarding still need to be verified.</p>
+<ul><li><a href="https://www.wireguard.com/quickstart/">WireGuard quick start</a>.</li></ul>
+<h2 id="tailscale">Tailscale connectivity</h2>
+<p>I used Tailscale to test connectivity and file transfer between devices on different networks,
+and explored relay and port-forwarding designs for home-network reachability.</p>
+<ul><li><a href="https://tailscale.com/kb">Tailscale documentation</a>.</li></ul>
+</main>
+<footer><p><a href="index.html">Bowen</a> · <a href="https://github.com/bowen-pixel">GitHub</a></p></footer>
+</body>
+</html>

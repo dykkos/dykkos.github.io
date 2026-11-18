@@ -3,36 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Computer Science - Bowen</title>
+  <meta name="description" content="Machine learning, systems and security, P2P networking, and Web3 projects.">
+  <title>Projects — Bowen</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Computer Science</h1>
-  <p>Projects and code.</p>
-  <hr>
-  <h2 id="wikiclick">Neural networks</h2>
-  <h3>WikiClick</h3>
-  <p>Finding paths between Wikipedia articles using directed graphs, semantic features,
-  and neural distance and next-link ranking experiments. Built with Python, PyTorch,
-  and NetworkX. Live routes aren't guaranteed to be globally shortest.</p>
-  <p><a href="https://github.com/bowen-pixel/WikiClick">Code and experiments</a></p>
-  <hr>
-  <h2 id="web3">Web3</h2>
-  <h3>Solidity and ETH payment channels</h3>
-  <p>Educational smart contracts, study notes, tests, and local-chain demos.
-  Topics include typed signatures, escrow accounting, replay protection, and withdrawals.
-  Built with Solidity, Foundry, ethers.js, and Anvil.</p>
-  <p><a href="https://github.com/bowen-pixel/SmartContract">Contracts and notes</a></p>
-  <h3>BNB support toolkit</h3>
-  <p>A read-only Python prototype for RPC health checks, transaction-status triage,
-  and wallet balance and nonce checks. Includes JSON reports, tests, and BSC testnet examples.</p>
-  <p><a href="https://github.com/bowen-pixel/bnb-support-toolkit">Code and runbook</a></p>
-  <hr>
-  <h2>Other interests</h2>
-  <ul>
-    <li>Data Structures</li>
-    <li>Algorithms</li>
-  </ul>
-  <p><a href="ai-safety.html">AI safety and Trajectory Labs</a></p>
-  <p><a href="index.html">← Back to Home</a></p>
+<nav aria-label="Main navigation"><a href="index.html">Home</a> · <a href="index.html#academic">Academic</a> · <a href="index.html#project">Project</a> · <a href="blog.html">Blog</a> · <a href="intro.html">About</a> · <a href="misc.html">Miscellaneous</a></nav>
+<main>
+<h1>Project</h1>
+<p>Code, experiments, and learning projects.</p>
+<section aria-labelledby="wikiclick">
+<h3 id="wikiclick">Machine Learning &amp; Neural Networks</h3>
+<ul>
+  <li><a href="https://github.com/bowen-pixel/WikiClick">WikiClick</a> — Wikipedia hyperlink navigation with Python, PyTorch, and NetworkX;
+  graph search, semantic features, and learned next-link ranking.
+  <a href="https://github.com/bowen-pixel/WikiClick/blob/main/Deploy.md">Run locally</a>;
+  <a href="https://github.com/bowen-pixel/WikiClick/blob/main/figures/README.md">experiments and figures</a>.</li>
+</ul>
+<figure class="learning-curve">
+  <a href="images/wikiclick-learning-curve.png" aria-label="Open full-size WikiClick learning curve">
+    <img src="images/wikiclick-learning-curve.png" width="2423" height="1023"
+      alt="WikiClick learning curves for seed 207: validation ranking loss and optimal-next-link accuracy over training stages on a saved 1,000-article graph." loading="lazy">
+  </a>
+  <figcaption>WikiClick: validation learning curves on a saved 1,000-article graph (seed 207).
+  Stages start from different points; continuation and correction share the same selected checkpoint.
+  These are offline validation results, not live-Wikipedia performance guarantees.</figcaption>
+</figure>
+</section>
+<section aria-labelledby="systems">
+<h3 id="systems">Systems &amp; Security</h3>
+<ul>
+  <li><a href="systems.html#kali">Kali Linux lab</a> — an isolated virtual machine for learning networking and web-security tools.
+  <a href="https://www.kali.org/docs/">Kali documentation</a>;
+  <a href="https://github.com/aw-junaid/Kali-Linux">reference guide</a>.</li>
+  <li><a href="systems.html#wireshark">Wireshark traffic analysis</a> — TCP handshakes, resets, HTTP requests, packet filters, and stream inspection.
+  <a href="https://www.wireshark.org/docs/">Wireshark documentation</a>.</li>
+</ul>
+</section>
+<section aria-labelledby="p2p">
+<h3 id="p2p">P2P</h3>
+<ul>
+  <li><a href="p2p.html#wireguard">WireGuard tunnels</a> — peer configuration, handshake checks, IP forwarding, NAT, and routing experiments.
+  <a href="https://www.wireguard.com/quickstart/">WireGuard quick start</a>.</li>
+  <li><a href="p2p.html#tailscale">Tailscale connectivity</a> — testing connections and file transfers between devices on different networks.
+  <a href="https://tailscale.com/kb">Tailscale documentation</a>.</li>
+</ul>
+</section>
+<section aria-labelledby="web3">
+<h3 id="web3">Web3</h3>
+<ul>
+  <li><a href="https://github.com/bowen-pixel/SmartContract">Smart contracts and ETH payment channels</a> — Solidity study notes, EIP-712 signatures, escrow accounting,
+  replay and reentrancy tests, stateful invariants, and local-chain demos.
+  <a href="https://github.com/bowen-pixel/SmartContract/blob/main/channel-lab/docs/SECURITY_REVIEW.md">Security self-review</a>.
+  Educational implementations; not independently audited.</li>
+  <li><a href="https://docs.openzeppelin.com/contracts/5.x/learn/developing-smart-contracts">OpenZeppelin study</a> — a reference for contract development and library use;
+  the payment-channel lab uses OpenZeppelin cryptography and reentrancy protection.</li>
+  <li><a href="https://github.com/bowen-pixel/bnb-support-toolkit">BNB support toolkit</a> — a read-only Python prototype for RPC health, transaction-status,
+  balance, and nonce checks, with JSON reports, tests, and a troubleshooting runbook.</li>
+</ul>
+</section>
+<section aria-labelledby="ai-safety">
+<h3 id="ai-safety">AI Safety</h3>
+<ul>
+  <li><a href="ai-safety.html">TAISI fellowship and Trajectory Labs</a> — reading and discussion on AI capabilities, evaluation, and safety.</li>
+</ul>
+</section>
+</main>
+<footer><p><a href="index.html">Bowen</a> · <a href="https://github.com/bowen-pixel">GitHub</a></p></footer>
 </body>
 </html>

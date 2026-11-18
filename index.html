@@ -3,33 +3,113 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bowen</title>
+  <meta name="description" content="Academic notes and personal projects by Bowen: mathematics, theoretical computer science, machine learning, systems, networking, and Web3.">
+  <title>Bowen — Academic notes and projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <h1>Bowen</h1>
-  <p>Applied math at UofT, interested in combinatorics, CS Theory, coding Theory</p>
-
-  <hr>
-
-  <p>
-    <a href="intro.html">Intro</a><br><br>
-    <a href="blog.html">Blog</a><br><br>
-    <a href="math.html">Math</a><br><br>
-    <a href="cs.html">Computer Science</a><br><br>
-    <a href="misc.html">Miscellaneous</a><br><br>
-    <a href="ai-safety.html">AI Safety</a>
-  </p>
-
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:20px; margin-top:40px;">
-    <img src="images/spongebob.jpg"
-         alt="Spongebob"
-         width="360" height="203" style="max-width:100%; height:auto;">
-    <img src="images/rings-and-ideals.svg"
-         alt="Rings and ideals: the integer ring Z contains 2Z and 3Z, whose intersection is 6Z."
-         width="360" height="203" style="max-width:100%; height:auto;">
-  </div>
-
+<nav aria-label="Main navigation"><a href="index.html">Home</a> · <a href="index.html#academic">Academic</a> · <a href="index.html#project">Project</a> · <a href="blog.html">Blog</a> · <a href="intro.html">About</a> · <a href="misc.html">Miscellaneous</a></nav>
+<main>
+<h1>Bowen</h1>
+<p>I study applied mathematics and computer science at the University of Toronto.
+Here are my academic notes and personal projects, grouped by subject.</p>
+<section aria-labelledby="academic">
+<h2 id="academic">Academic</h2>
+<p>Course notes and reading notes. Some are still in progress.</p>
+<section aria-labelledby="combinatorics">
+<h3 id="combinatorics">Combinatorics &amp; Graph Theory</h3>
+<ul>
+  <li><a href="pdf/Advance_Combinatorics.pdf">Advanced Combinatorics</a>.</li>
+  <li><a href="pdf/Intro_to_Combinatorics.pdf">Introduction to Combinatorics</a>.</li>
+  <li><a href="pdf/Counting.pdf">Elementary Counting</a>.</li>
+  <li><a href="pdf/Algebra_Numbers_Combinatorics.pdf">Algebraic Combinatorics</a>.</li>
+  <li><a href="pdf/Intro_to_Graph.pdf">Introduction to Graph Theory</a>.</li>
+  <li><a href="blog.html#erdos-renyi">Erdős–Rényi graphs</a> — a short note on triangle counting.</li>
+</ul>
+</section>
+<section aria-labelledby="analysis">
+<h3 id="analysis">Analysis &amp; Topology</h3>
+<ul>
+  <li><a href="pdf/Inequality.pdf">Inequality Notes</a>.</li>
+  <li><a href="pdf/Intro_to_Topology.pdf">Introduction to Topology</a>.</li>
+  <li><a href="blog.html#arzela-ascoli">Arzelà–Ascoli</a> — a short reading note on compactness and equicontinuity.</li>
+</ul>
+</section>
+<section aria-labelledby="algebra">
+<h3 id="algebra">Algebra &amp; Groups</h3>
+<ul>
+  <li><a href="pdf/Elementary_Algebra.pdf">Elementary Algebra</a>.</li>
+  <li><a href="images/rings-and-ideals.svg">Rings and ideals</a> — an illustration of ideals in the integers.</li>
+</ul>
+</section>
+<section aria-labelledby="tcs">
+<h3 id="tcs">Theoretical Computer Science (TCS)</h3>
+<ul>
+  <li id="mat1307"><strong>MAT1307 — Boolean Circuits</strong>. <em>Notes in progress.</em></li>
+</ul>
+</section>
+</section>
+<section aria-labelledby="project">
+<h2 id="project">Project</h2>
+<p>Code, experiments, and learning projects.</p>
+<section aria-labelledby="wikiclick">
+<h3 id="wikiclick">Machine Learning &amp; Neural Networks</h3>
+<ul>
+  <li><a href="https://github.com/bowen-pixel/WikiClick">WikiClick</a> — Wikipedia hyperlink navigation with Python, PyTorch, and NetworkX;
+  graph search, semantic features, and learned next-link ranking.
+  <a href="https://github.com/bowen-pixel/WikiClick/blob/main/Deploy.md">Run locally</a>;
+  <a href="https://github.com/bowen-pixel/WikiClick/blob/main/figures/README.md">experiments and figures</a>.</li>
+</ul>
+<figure class="learning-curve">
+  <a href="images/wikiclick-learning-curve.png" aria-label="Open full-size WikiClick learning curve">
+    <img src="images/wikiclick-learning-curve.png" width="2423" height="1023"
+      alt="WikiClick learning curves for seed 207: validation ranking loss and optimal-next-link accuracy over training stages on a saved 1,000-article graph." loading="lazy">
+  </a>
+  <figcaption>WikiClick: validation learning curves on a saved 1,000-article graph (seed 207).
+  Stages start from different points; continuation and correction share the same selected checkpoint.
+  These are offline validation results, not live-Wikipedia performance guarantees.</figcaption>
+</figure>
+</section>
+<section aria-labelledby="systems">
+<h3 id="systems">Systems &amp; Security</h3>
+<ul>
+  <li><a href="systems.html#kali">Kali Linux lab</a> — an isolated virtual machine for learning networking and web-security tools.
+  <a href="https://www.kali.org/docs/">Kali documentation</a>;
+  <a href="https://github.com/aw-junaid/Kali-Linux">reference guide</a>.</li>
+  <li><a href="systems.html#wireshark">Wireshark traffic analysis</a> — TCP handshakes, resets, HTTP requests, packet filters, and stream inspection.
+  <a href="https://www.wireshark.org/docs/">Wireshark documentation</a>.</li>
+</ul>
+</section>
+<section aria-labelledby="p2p">
+<h3 id="p2p">P2P</h3>
+<ul>
+  <li><a href="p2p.html#wireguard">WireGuard tunnels</a> — peer configuration, handshake checks, IP forwarding, NAT, and routing experiments.
+  <a href="https://www.wireguard.com/quickstart/">WireGuard quick start</a>.</li>
+  <li><a href="p2p.html#tailscale">Tailscale connectivity</a> — testing connections and file transfers between devices on different networks.
+  <a href="https://tailscale.com/kb">Tailscale documentation</a>.</li>
+</ul>
+</section>
+<section aria-labelledby="web3">
+<h3 id="web3">Web3</h3>
+<ul>
+  <li><a href="https://github.com/bowen-pixel/SmartContract">Smart contracts and ETH payment channels</a> — Solidity study notes, EIP-712 signatures, escrow accounting,
+  replay and reentrancy tests, stateful invariants, and local-chain demos.
+  <a href="https://github.com/bowen-pixel/SmartContract/blob/main/channel-lab/docs/SECURITY_REVIEW.md">Security self-review</a>.
+  Educational implementations; not independently audited.</li>
+  <li><a href="https://docs.openzeppelin.com/contracts/5.x/learn/developing-smart-contracts">OpenZeppelin study</a> — a reference for contract development and library use;
+  the payment-channel lab uses OpenZeppelin cryptography and reentrancy protection.</li>
+  <li><a href="https://github.com/bowen-pixel/bnb-support-toolkit">BNB support toolkit</a> — a read-only Python prototype for RPC health, transaction-status,
+  balance, and nonce checks, with JSON reports, tests, and a troubleshooting runbook.</li>
+</ul>
+</section>
+<section aria-labelledby="ai-safety">
+<h3 id="ai-safety">AI Safety</h3>
+<ul>
+  <li><a href="ai-safety.html">TAISI fellowship and Trajectory Labs</a> — reading and discussion on AI capabilities, evaluation, and safety.</li>
+</ul>
+</section>
+</section>
+</main>
+<footer><p><a href="index.html">Bowen</a> · <a href="https://github.com/bowen-pixel">GitHub</a></p></footer>
 </body>
 </html>
