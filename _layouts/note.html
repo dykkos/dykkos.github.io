@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }} — Bowen</title>
+  <title>{{ page.title | escape }} — Bowen Guang</title>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
   {% if page.math %}<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>{% endif %}
 </head>
@@ -14,6 +14,9 @@
   {% if page.note_date %}<p><time datetime="{{ page.note_date }}">{{ page.note_date }}</time></p>{% endif %}
   {{ content }}
 </main>
-<footer><p><a href="https://github.com/dykkos/dykkos.github.io/blob/main/{{ page.path }}">Markdown source</a> · <a href="{{ '/index.html' | relative_url }}">Bowen</a></p></footer>
+<footer>
+  <p><a href="{{ '/index.html' | relative_url }}">Bowen Guang</a> · <a href="https://github.com/dykkos/dykkos.github.io/blob/main/{{ page.path }}">Markdown source</a></p>
+  <nav aria-label="Footer navigation"><a href="{{ '/index.html#academic' | relative_url }}">Academic</a> · <a href="{{ '/index.html#project' | relative_url }}">Project</a> · <a href="{{ '/experience.html' | relative_url }}">Experience</a> · <a href="{{ '/misc.html' | relative_url }}">Miscellaneous</a> · <a href="https://github.com/bowen-pixel">GitHub</a></nav>
+</footer>
 </body>
 </html>

@@ -30,3 +30,7 @@ footer { margin-top: 36px; }
   ul { padding-left: 24px; }
   .learning-curve { margin-left: 0; }
 }
+
+.illustrations figure { margin: 0; }
+.illustrations figcaption { margin-top: 6px; }
+footer nav { margin: 8px 0 16px; }

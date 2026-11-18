@@ -36,3 +36,9 @@ use Jekyll for a complete local preview, or verify the Pages deployment.
 `images/wikiclick-learning-curve.png` is copied unchanged from
 `bowen-pixel/WikiClick/figures/learning_curves/LC03_next_link_validation_1000.png`.
 It shows offline validation histories, not live-web performance.
+
+## Navigation and illustrations
+
+All pages include footer links to Academic, Project, Experience, Miscellaneous, and GitHub.
+`experience.html` lists fellowship and community participation. `misc.html` contains
+the captioned SpongeBob and rings-and-ideals illustrations. The displayed name is Bowen Guang.
