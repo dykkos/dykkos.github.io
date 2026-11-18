@@ -34,3 +34,8 @@ footer { margin-top: 36px; }
 .illustrations figure { margin: 0; }
 .illustrations figcaption { margin-top: 6px; }
 footer nav { margin: 8px 0 16px; }
+
+.script-demos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 1280px; margin: 20px 0 28px; }
+.script-demos figure { margin: 0; }
+.script-demos img { display: block; width: 100%; height: auto; }
+@media (max-width: 700px) { .script-demos { grid-template-columns: 1fr; } }

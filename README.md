@@ -42,3 +42,5 @@ It shows offline validation histories, not live-web performance.
 All pages include footer links to Academic, Project, Experience, Miscellaneous, and GitHub.
 `experience.html` lists fellowship and community participation. `misc.html` contains
 the captioned SpongeBob and rings-and-ideals illustrations. The displayed name is Bowen Guang.
+
+- `script.html`: Script mini-projects, branch links, and demo pictures (`images/scripts/`).
