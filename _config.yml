@@ -1,0 +1,8 @@
+title: Bowen
+url: "https://dykkos.github.io"
+baseurl: ""
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

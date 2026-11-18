@@ -1,83 +1,20 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog</title>
-
-  <!-- MathJax -->
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<nav aria-label="Main navigation"><a href="index.html">Home</a> · <a href="index.html#academic">Academic</a> · <a href="index.html#project">Project</a> · <a href="blog.html">Blog</a> · <a href="intro.html">About</a> · <a href="misc.html">Miscellaneous</a></nav>
-
-<p><a href="index.html">← Back to Home</a></p>
-<hr>
-
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Blog — Bowen</title><link rel="stylesheet" href="style.css"></head>
+<body><p><a href="index.html">Home</a> · <a href="blog.html">Blog</a></p><main>
 <h1>Blog</h1>
+<p>Thoughts and notes to future me.</p>
+<section aria-labelledby="blog">
 
-
-<p>
-Thoughts and notes to future me.
-</p>
-
-<hr>
-
-
-<!-- ========================= -->
-<!-- 2026-02-14 -->
-<!-- ========================= -->
-
-<h2 id="erdos-renyi">2026-02-14 — Erdős–Rényi Graphs</h2>
-
-<p><i>Topic: Random graphs, triangle counting</i></p>
-
-<p>
-Today I reviewed the definition of G(n,p) and how to compute the
-expected number of triangles. I initially attempted via adjacency matrix, since we have \[
-  \#\;\text{traingles} = \frac{1}{6}\cdot \text{trace}(A^3)
-  \]
-</p>
-
-<p>
-Key idea: write the number of triangles as a sum of indicator variables.
-</p>
-
-<p>
-Still confused about the covariance terms.
-</p>
-
-<hr>
-
-
-<!-- ========================= -->
-<!-- 2026-02-10 -->
-<!-- ========================= -->
-
-<h2 id="arzela-ascoli">2026-02-07 — Arzelà–Ascoli</h2>
-
-<p><i>Topic: Compactness in C(K)</i></p>
-
-<p>
-I finally understood why equicontinuity matters.
-</p>
-
-<p>
-Mean value theorem gives uniform control.
-</p>
-
-<p>
-Need to review Banach space version.
-</p>
-
-<hr>
-
-
-</body>
-
-
-</html>
+<p>Personal notes, grouped by subject.</p>
+<h3><a href="blog/ai-safety/">AI Safety</a></h3>
+<p>Fellowship reflections and research notes. <a href="ai-safety.html">Reading list</a>.</p>
+<h3><a href="blog/mathematics/">Mathematics</a></h3>
+<ul>
+  <li id="erdos-renyi"><a href="blog/mathematics/2026-02-14-erdos-renyi.html">Erdős–Rényi Graphs</a> — 14 February 2026.</li>
+  <li id="arzela-ascoli"><a href="blog/mathematics/2026-02-07-arzela-ascoli.html">Arzelà–Ascoli</a> — 7 February 2026.</li>
+</ul>
+<h3><a href="blog/computer-science/">Computer Science</a></h3>
+<p>Algorithms, machine learning, systems, and programming.</p>
+</section>
+</main></body></html>

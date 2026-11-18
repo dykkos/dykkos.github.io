@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} — Bowen</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  {% if page.math %}<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>{% endif %}
+</head>
+<body>
+<p><a href="{{ '/index.html' | relative_url }}">Home</a> · <a href="{{ '/ai-safety.html' | relative_url }}">AI Safety</a> · <a href="{{ '/blog.html' | relative_url }}">Blog</a></p>
+<main>
+  <h1>{{ page.title | escape }}</h1>
+  {% if page.note_date %}<p><time datetime="{{ page.note_date }}">{{ page.note_date }}</time></p>{% endif %}
+  {{ content }}
+</main>
+<footer><p><a href="https://github.com/dykkos/dykkos.github.io/blob/main/{{ page.path }}">Markdown source</a> · <a href="{{ '/index.html' | relative_url }}">Bowen</a></p></footer>
+</body>
+</html>

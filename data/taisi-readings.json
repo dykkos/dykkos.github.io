@@ -1,0 +1,431 @@
+{
+  "source": "https://fellowship.taisi.ca/",
+  "captured_on": "2026-11-18",
+  "selection": "Only articles marked read in weeks 0–6.",
+  "weeks_reviewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "articles": [
+    {
+      "title": "RLHF: Reinforcement Learning from Human Feedback – Chip Huyen, 2023",
+      "url": "https://huyenchip.com/2023/05/02/rlhf.html",
+      "weeks": [
+        0
+      ],
+      "category": "training",
+      "marked_read": true
+    },
+    {
+      "title": "Why Do People Disagree About When Powerful AI Will Arrive? – BlueDot Impact, 2025",
+      "url": "https://blog.bluedot.org/p/agi-timelines",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "How Scaling Laws Drive Smarter, More Powerful AI – NVIDIA, 2025",
+      "url": "https://blogs.nvidia.com/blog/ai-scaling-laws/",
+      "weeks": [
+        1
+      ],
+      "category": "training",
+      "marked_read": true
+    },
+    {
+      "title": "The Bitter Lesson – Rich Sutton, 2019",
+      "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "weeks": [
+        1
+      ],
+      "category": "training",
+      "marked_read": true
+    },
+    {
+      "title": "Will AI R&D Automation Cause a Software Intelligence Explosion? – Forethought, 2025",
+      "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "Task-Completion Time Horizons of Frontier AI Models – METR, 2026",
+      "url": "https://metr.org/time-horizons/",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "The Power of Intelligence – Eliezer Yudkowsky, 2007",
+      "url": "https://www.youtube.com/watch?v=q9Figerh89g",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "Algorithmic Progress in Language Models – Epoch AI, 2024",
+      "url": "https://epoch.ai/publications/algorithmic-progress-in-language-models",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "The Least Understood Driver of AI Progress – Epoch AI, 2026",
+      "url": "https://epoch.ai/gradient-updates/the-least-understood-driver-of-ai-progress",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "An Apple-Picking Model of AI R&D – Tom Cunningham, 2026",
+      "url": "https://tecunningham.github.io/posts/2026-03-13-apple-picking-ai.html",
+      "weeks": [
+        1
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "Outer vs Inner Misalignment: Three Framings – Richard Ngo, 2022",
+      "url": "https://www.alignmentforum.org/posts/poyshiMEhJsAuifKt/outer-vs-inner-misalignment-three-framings-1",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Alignment Faking in Large Language Models – Anthropic & Redwood Research, 2024",
+      "url": "https://www.anthropic.com/research/alignment-faking",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Playing the Training Game – Kelsey Piper, 2023",
+      "url": "https://www.planned-obsolescence.org/p/the-training-game",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "The Hugging Face Incident and the Road Ahead – OpenAI, 2026",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs – Betley et al., 2025",
+      "url": "https://arxiv.org/abs/2502.17424",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training – Anthropic, 2024",
+      "url": "https://arxiv.org/abs/2401.05566",
+      "weeks": [
+        2,
+        3
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Language Models Learn to Mislead Humans via RLHF – Wen et al., 2024",
+      "url": "https://arxiv.org/abs/2409.12822",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Large Language Models Can Strategically Deceive Their Users When Put Under Pressure – Apollo Research, 2023",
+      "url": "https://arxiv.org/abs/2311.07590",
+      "weeks": [
+        2
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Fail Safe(r) at Alignment by Channeling Reward-Hacking Into a \"Spillway\" Motivation – Anders Cairns Woodruff & Alex Mallen, 2026",
+      "url": "https://www.lesswrong.com/posts/rABTMovhz4miHiAyk/fail-safe-r-at-alignment-by-channeling-reward-hacking-into-a",
+      "weeks": [
+        3
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Gradient Hacking – Evan Hubinger, 2019",
+      "url": "https://www.alignmentforum.org/posts/uXH4r6MmKPedk8rMA/gradient-hacking",
+      "weeks": [
+        3
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Misalignment and Strategic Underperformance: An Analysis of Sandbagging and Exploration Hacking – Julian Stastny & Buck Shlegeris, 2025",
+      "url": "https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance",
+      "weeks": [
+        3
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Tracing the Thoughts of a Large Language Model – Anthropic, 2025",
+      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Natural Language Autoencoders – Anthropic, 2026",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Interpretability Will Not Reliably Find Deceptive AI – Neel Nanda, 2025",
+      "url": "https://www.lesswrong.com/posts/PwnadG4BFjaER3MGf/interpretability-will-not-reliably-find-deceptive-ai",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Difficulties with Evaluating a Deception Detector for AIs – Google DeepMind, 2025",
+      "url": "https://www.alignmentforum.org/posts/zmngpxsvGbotFeQca/paper-difficulties-with-evaluating-a-deception-detector-for",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Auditing Language Models for Hidden Objectives – Anthropic, 2025",
+      "url": "https://www.anthropic.com/research/auditing-hidden-objectives",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Interpretability Dreams – Chris Olah, 2023",
+      "url": "https://transformer-circuits.pub/2023/interpretability-dreams/index.html",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Toy Models of Superposition – Elhage et al. (Anthropic), 2022",
+      "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+      "weeks": [
+        4
+      ],
+      "category": "interpretability",
+      "marked_read": true
+    },
+    {
+      "title": "Constitutional AI: Harmlessness From AI Feedback – Anthropic, 2022",
+      "url": "https://arxiv.org/abs/2212.08073",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Claude's New Constitution – Anthropic, 2026",
+      "url": "https://www.anthropic.com/news/claude-new-constitution",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "OpenAI Model Spec – OpenAI, 2026",
+      "url": "https://model-spec.openai.com/2026-08-18.html",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training – Apollo Research and OpenAI, 2025",
+      "url": "https://www.apolloresearch.ai/science/stress-testing-deliberative-alignment-for-anti-scheming-training",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Specific Versus General Principles for Constitutional AI – Kundu et al. (Anthropic), 2023",
+      "url": "https://arxiv.org/abs/2310.13798",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Why AI Alignment Could Be Hard with Modern Deep Learning – Ajeya Cotra, 2021",
+      "url": "https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "SIGMA: Self-Improving Alignment Generalization from a Model Spec – Zhang et al., 2026",
+      "url": "https://arxiv.org/abs/2610.07935",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Could a Large Language Model Be Conscious? – David Chalmers, 2023",
+      "url": "https://arxiv.org/abs/2303.07103",
+      "weeks": [
+        5
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "The Scramble: Getting in Position to Pace the Frontier – Peter Wildeford, 2026",
+      "url": "https://blog.peterwildeford.com/p/the-scramble-getting-in-position",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Crucial Considerations in ASI Deterrence – Oscar Delaney, 2025",
+      "url": "https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Computing Power and the Governance of AI – Heim et al. (GovAI), 2024",
+      "url": "https://www.governance.ai/analysis/computing-power-and-the-governance-of-ai",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "What I Want You to Do When I Tell You to \"Think About Your Theory of Change More Carefully\" – Roman Ross, 2026",
+      "url": "https://forum.effectivealtruism.org/posts/JyGrLbcFbouCAPBH4/what-i-want-you-to-do-when-i-tell-you-to-think-about-your",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "AI 2027 – Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean, 2025",
+      "url": "https://ai-2027.com/",
+      "weeks": [
+        6
+      ],
+      "category": "recent-progress",
+      "marked_read": true
+    },
+    {
+      "title": "Verifying Restrictions on Frontier AI Research – Scher et al., 2026",
+      "url": "https://arxiv.org/abs/2606.28694",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Summary: Mechanisms to Verify International Agreements About AI Development – Aaron Scher and Lisa Thiergart (MIRI), 2026",
+      "url": "https://intelligence.org/2026/03/18/mechanisms-to-verify-international-agreements-about-ai-development/",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring – Yonadav Shavit, 2023",
+      "url": "https://arxiv.org/abs/2303.11341",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "Open Problems in Technical AI Governance – Anka Reuel, Ben Bucknall et al., 2024",
+      "url": "https://arxiv.org/abs/2407.14981",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    },
+    {
+      "title": "On-ramp to AI Safety – Chanden Climaco, 2026",
+      "url": "https://docs.google.com/document/d/1aFZAQRW99yYV5VXS4hpaqRmML_VAeypPxcdUqDOwz7Q/edit?tab=t.0#heading=h.4r77zaf4pilu",
+      "weeks": [
+        6
+      ],
+      "category": "alignment",
+      "marked_read": true
+    }
+  ]
+}
